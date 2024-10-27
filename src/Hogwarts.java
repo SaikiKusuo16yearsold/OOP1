@@ -42,29 +42,29 @@ public class Hogwarts {
 
     public static void describeStudent(Hogwarts Student) {
         if (Student instanceof Gryffindor) {
-            Gryffindor students = (Gryffindor) Student;
-            System.out.println("У стедента " + students.getFullname() + " " + students.getMagicalPower()
-                    + " магической силы и " + students.getTransgressionDistance() + " расстояние трагресии и " + " столько благоролства, чести и храбрости " +
-                    +students.getHonor() + ", " + students.getBravery() + ", " + students.getNobility());
+            Gryffindor student = (Gryffindor) Student;
+            System.out.println("У стедента " + student.getFullname() + " " + student.getMagicalPower()
+                    + " магической силы и " + student.getTransgressionDistance() + " расстояние трагресии и " + " столько благоролства, чести и храбрости " +
+                    student.getHonor() + ", " + student.getBravery() + ", " + student.getNobility());
         } else if (Student instanceof Hufflepuff) {
-            Hufflepuff students = (Hufflepuff) Student;
-            System.out.println("У стедента " + students.getFullname() + " " + students.getMagicalPower()
-                    + " магической силы и " + students.getTransgressionDistance() + " расстояние трагресии и " + " трудолюбивы, верны, честны " +
-                    +students.getLoyalty() + ", " + students.getHonesty() + ", " + students.getIndustriousness());
+            Hufflepuff student = (Hufflepuff) Student;
+            System.out.println("У стедента " + student.getFullname() + " " + student.getMagicalPower()
+                    + " магической силы и " + student.getTransgressionDistance() + " расстояние трагресии и " + " трудолюбивы, верны, честны " +
+                    student.getLoyalty() + ", " + student.getHonesty() + ", " + student.getIndustriousness());
         } else if (Student instanceof Ravenclaw) {
-            Ravenclaw students = (Ravenclaw) Student;
-            System.out.println("У стедента " + students.getFullname() + " " + students.getMagicalPower()
-                    + " магической силы и " + students.getTransgressionDistance() + " расстояние трагресии и "
+            Ravenclaw student = (Ravenclaw) Student;
+            System.out.println("У стедента " + student.getFullname() + " " + student.getMagicalPower()
+                    + " магической силы и " + student.getTransgressionDistance() + " расстояние трагресии и "
                     + " присущи хитрость, решительность, амбициозность, находчивость и жажда власти " +
-                    +students.getMind() + ", " + students.getWisdomisdom() + ", " + students.getWit() + " " +
-                    students.getFullnessCreativity());
+                    student.getMind() + ", " + student.getWisdomisdom() + ", " + student.getWit() + " " +
+                    student.getFullnessCreativity());
         } else if (Student instanceof Slytherin) {
-            Slytherin students = (Slytherin) Student;
-            System.out.println("У стедента " + students.getFullname() + " " + students.getMagicalPower()
-                    + " магической силы и " + students.getTransgressionDistance() + " расстояние трагресии и "
+            Slytherin student = (Slytherin) Student;
+            System.out.println("У стедента " + student.getFullname() + " " + student.getMagicalPower()
+                    + " магической силы и " + student.getTransgressionDistance() + " расстояние трагресии и "
                     + " присущи хитрость, решительность, амбициозность, находчивость и жажда власти " +
-                    +students.getDeinstitutionalization() + ", " + students.getBravery() + ", " +
-                    students.getThirstPower() + ", " + students.getFullnessCreativity() + ", " + students.getTrick());
+                    +student.getDeinstitutionalization() + ", " + student.getBravery() + ", " +
+                    student.getThirstPower() + ", " + student.getFullnessCreativity() + ", " + student.getTrick());
         }
     }
 
