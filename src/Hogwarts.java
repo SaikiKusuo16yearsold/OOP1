@@ -1,7 +1,7 @@
 public class Hogwarts {
-    private String fullname;
-    private int magicalPower;
-    private int transgressionDistance;
+    private final String fullname;
+    private final int magicalPower;
+    private final int transgressionDistance;
 
     public Hogwarts(String fullname, int magicalPower, int transgressionDistance) {
         this.fullname = fullname;
